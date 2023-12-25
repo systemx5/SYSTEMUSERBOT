@@ -76,7 +76,7 @@ async def del_sudo_user(client, message: Message):
 
 @app.on_message(commandx(["sudousers", "sudolist", "sl"]) & SUPUSER)
 async def sudo_users_list(client, message: Message):
-    text = "⭐️<u> **SUPER USER:**</u>\n"
+    text = "<u> **SUPER USER:**</u>\n"
     count = 0
     try:
         user = (
@@ -97,7 +97,7 @@ async def sudo_users_list(client, message: Message):
                 )
                 if smex == 0:
                     smex += 1
-                    text += "\n⭐️<u> **SUDO USERS:**</u>\n"
+                    text += "\n<u> **SUDO USERS:**</u>\n"
                 count += 1
                 text += f"{count}➤ {user}\n"
             except Exception:
@@ -108,10 +108,10 @@ async def sudo_users_list(client, message: Message):
         await message.edit(text)
 
 
-__NAME__ = "✨ ꜱᴜᴅᴏ 🌷"
+__NAME__ = " ꜱᴜᴅᴏ "
 __MENU__ = f"""
-**🥀 𝗔𝗗𝗗 𝗢𝗥 𝗥𝗘𝗠𝗢𝗩𝗘 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦
-𝗙𝗥𝗢𝗠 𝗬𝗢𝗨𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ✨...**
+** 𝗔𝗗𝗗 𝗢𝗥 𝗥𝗘𝗠𝗢𝗩𝗘 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦
+𝗙𝗥𝗢𝗠 𝗬𝗢𝗨𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ...**
 
 `.addsudo` - 𝗥𝗘𝗣𝗟𝗬 𝗧𝗛𝗜𝗦 𝗖𝗢𝗠𝗗
 𝗧𝗢 𝗔𝗡𝗬 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗢𝗙 𝗧𝗔𝗥𝗚𝗘𝗧 𝗨𝗦𝗘𝗥 
