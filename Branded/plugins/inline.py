@@ -11,22 +11,22 @@ async def help_menu_logo(answer):
     if var.USERBOT_PICTURE:
         thumb_image = var.USERBOT_PICTURE
     else:
-        thumb_image = "https://te.legra.ph/file/11cfa74175b590014bd16.jpg"
+        thumb_image = "https://te.legra.ph/file/32ce5125b1a69d84ffe39.jpg"
     button = paginate_plugins(0, PLUGINS, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
-            title="🥀 Help Menu ✨",
+            title=" Help Menu ",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of King-Userbot ✨...",
+            description=f" Open Help Menu Of System-Userbot ...",
             caption=f"""
-**🥀 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 𝗢𝗙
-Branded Userbot » {__version__} ✨...
+** 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 𝗢𝗙
+Branded Userbot » {__version__} ...
 
-𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗕𝗘𝗟𝗢𝗪 🌺 𝗕𝗨𝗧𝗧𝗢𝗡𝗦 𝗧𝗢
+𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗕𝗘𝗟𝗢𝗪 𝗕𝗨𝗧𝗧𝗢𝗡𝗦 𝗧𝗢
 𝗚𝗘𝗧 𝗨𝗦𝗘𝗥𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 
-🌷Powered By : [𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚](https://t.me/BRANDEDKING82).**
+Powered By : [𝗠𝗔𝗛𝗧𝗢 𝗢𝗪𝗡𝗘𝗥](https://t.me/BLACKx_GOD).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -38,15 +38,15 @@ async def help_menu_text(answer):
     button = paginate_plugins(0, PLUGINS, "help")
     answer.append(
         InlineQueryResultArticle(
-            title="🥀 Help Menu ✨",
+            title=" Help Menu ",
             input_message_content=InputTextMessageContent(f"""
-**🥀 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 𝗢𝗙
-Branded Userbot » {__version__} ✨...
+** 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 𝗢𝗙
+Branded Userbot » {__version__} ...
 
-𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗕𝗘𝗟𝗢𝗪 🌺 𝗕𝗨𝗧𝗧𝗢𝗡𝗦 𝗧𝗢
+𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗕𝗘𝗟𝗢𝗪 𝗕𝗨𝗧𝗧𝗢𝗡𝗦 𝗧𝗢
 𝗚𝗘𝗧 𝗨𝗦𝗘𝗥𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 
-🌷Powered By : [𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚](https://t.me/BRANDEDKING82).**""",
+Powered By : [𝗠𝗔𝗛𝗧𝗢 𝗢𝗪𝗡𝗘𝗥](https://t.me/BLACKx_GOD).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
