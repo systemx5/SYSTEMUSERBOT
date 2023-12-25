@@ -18,7 +18,7 @@ def cb_wrapper(func):
         users = SUDOERS
         if cb.from_user.id not in users:
             await cb.answer(
-                "❎ You Are Not A Sudo User❗",
+                " You Are Not A Sudo User ",
                 cache_time=0,
                 show_alert=True,
             )
@@ -28,7 +28,7 @@ def cb_wrapper(func):
             except Exception:
                 print(format_exc())
                 await cb.answer(
-                    f"❎ Something Went Wrong, Please Check Logs❗..."
+                    f" Something Went Wrong, Please Check Logs..."
                 )
 
     return wrapper
@@ -43,7 +43,7 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy Branded Userbot ✨",
+                            " Deploy Branded Userbot ",
                             url=f"repo link"
                         )
                     ]
@@ -55,10 +55,10 @@ def inline_wrapper(func):
                         (
                             InlineQueryResultPhoto(
                                 photo_url=f"img url",
-                                title="🥀 Branded Userbot ✨",
+                                title=" SYSTEM Userbot ",
                                 thumb_url=f"img url",
-                                description=f"🌷 Deploy Your Own Branded-Userbot 🌿...",
-                                caption=f"<b>🥀 Welcome › To › Branded 🌷\n✅ Userbot v2.0 ✨...</b>",
+                                description=f" Deploy Your Own System-Userbot ...",
+                                caption=f"<b> Welcome › To › System \n Userbot v2.0 ...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
@@ -74,7 +74,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Branded Userbot❗...\n\nRepo:** <i>repo link/</i>||"
+                                    f"||** Please, Deploy Your Own Branded Userbot...\n\nRepo:** <i>repo link/</i>||"
                                 ),
                             )
                         )
