@@ -57,8 +57,8 @@ def inline_wrapper(func):
                                 photo_url=f"img url",
                                 title=" SYSTEM Userbot ",
                                 thumb_url=f"img url",
-                                description=f" Deploy Your Own System-Userbot ...",
-                                caption=f"<b> Welcome › To › System \n Userbot v2.0 ...</b>",
+                                description=f" Deploy Your Own Branded-Userbot ...",
+                                caption=f"<b> Welcome › To › Branded \n Userbot v2.0 ...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
