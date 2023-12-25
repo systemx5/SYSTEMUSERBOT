@@ -9,7 +9,7 @@ from pyrogram import *
 from pyrogram.types import *
 
 
-UPSTREAM_REPO = "https://github.com/WCGKING/KINGUSERBOTT"
+UPSTREAM_REPO = "https://github.com/systemx5/SYSTEMUSERBOT"
 UPSTREAM_BRANCH = "Branded"
 
 
