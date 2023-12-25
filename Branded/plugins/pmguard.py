@@ -8,10 +8,10 @@ from .. import *
 from ..modules.data import approve, disapprove, is_approved
 
 MSG_PERMIT = """
-PM_SECURITY BRANDED-USERBOT
+PM_SECURITY SYSTEM-USERBOT
 
 {}
-await message.reply_photo="https://te.legra.ph/file/11cfa74175b590014bd16.jpg"
+await message.reply_photo="https://te.legra.ph/file/32ce5125b1a69d84ffe39.jpg"
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 ⍟ You have {}/{} warning!!!
 """
@@ -175,9 +175,9 @@ async def unblock_user_func(client: Client, message: Message):
     await message.reply("Unblock User Successfully!!!")
 
 
-__NAME__ = "✨ ᴘᴍ 🌷"
+__NAME__ = " ᴘᴍ "
 __MENU__ = f"""
-**🥀 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗚𝗨𝗔𝗥𝗗 ✨...**
+** 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗚𝗨𝗔𝗥𝗗 ...**
 
 `.a` or `.approve`
 𝗙𝗢𝗥 𝗔𝗣𝗣𝗥𝗢𝗩𝗘 𝗨𝗦𝗘𝗥
