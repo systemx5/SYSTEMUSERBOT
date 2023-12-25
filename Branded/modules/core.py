@@ -76,9 +76,9 @@ class Branded(Client, PyTgCalls):
         if self.app.id not in Config.SUDOERS:
             Config.SUDOERS.add(int(self.app.id))
         try:
-            await self.app.join_chat("BRANDED_WORLD")
-            await self.app.join_chat("BRANDRD_BOT")
-            await self.app.join_chat("BRANDED_PAID_CC")
+            await self.app.join_chat("MAHTOxOFFICIAL")
+            await self.app.join_chat("REESHU_KEWAT_MODS")
+            await self.app.join_chat("BTOXIC_VIP_CONFIG_MOD")
         except:
             pass
         await self.app.send_message(Config.LOG_GROUP_ID, "**Userbot Started**")
@@ -91,9 +91,9 @@ class Branded(Client, PyTgCalls):
             self.ass.mention = self.ass.me.mention
             self.ass.id = self.ass.me.id
             try:
-                await self.ass.join_chat("BRANDED_WORLD")
-                await self.ass.join_chat("BRANDRD_BOT")
-                await self.ass.join_chat("BRANDED_PAID_CC")
+                await self.ass.join_chat("MAHTOxOFFICIAL")
+                await self.ass.join_chat("REESHU_KEWAT_MODS")
+                await self.ass.join_chat("TOXIC_VIP_CONFIG_MOD")
             except:
                 pass
             try:
@@ -120,7 +120,7 @@ class Branded(Client, PyTgCalls):
             await asyncio.sleep(1)
             await self.app.send_message(f"@botfather", f"@{self.bot.username}")
             await asyncio.sleep(1)
-            await self.app.send_message(f"@botfather", "🥀 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ✨")
+            await self.app.send_message(f"@botfather", " 𝗦𝗬𝗦𝗧𝗘𝗠 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ")
         except:
             pass
         try:
