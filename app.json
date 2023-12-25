@@ -1,14 +1,14 @@
 {
     "name": "Branded-Userbot",
-    "logo": "https://telegra.ph/file/d96f6c6858129c59842e9.jpg",
-    "description": "Branded-Userbot is a powerful, advanced, multi-featured Telegram userbot.",
+    "logo": "https://te.legra.ph/file/eac4d9fdc4639c381239f.jpg",
+    "description": "System-Userbot is a powerful, advanced, multi-featured Telegram userbot.",
     "keywords": [
         "userbot",
         "musicbot",
         "videobot",
         "telegram"
     ],
-    "repository": "https://github.com/WCGKING/KINGUSERBOT",
+    "repository": "https://github.com/systemx5/SYSTEMUSERBOT",
     "stack": "container",
     "env": {
         "API_ID": {
